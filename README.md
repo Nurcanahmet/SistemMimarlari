@@ -1,2 +1,2 @@
-# SistemMimarlar-
+# SistemMimarlar
 İşletim Sistemi Proje Ödevi
