@@ -1,4 +1,4 @@
-21. Grup
+21. Grup Sistem Mimarları
 
 B221210577 Nurcan Ahmet 1-A
 B221210070 Şevval Nur Kalaycı 1-A
