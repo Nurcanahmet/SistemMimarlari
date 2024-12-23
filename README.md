@@ -6,7 +6,7 @@ B221210055 Şeyma Orhan 1-A
 B221210588 Younes Rahebi 1-C
 B221210090 Umut Direk 1-C
 
-increment fonksiyonunu şekilde çalışırabilirsiniz
+increment fonksiyonunu şu şekilde çalışırabilirsiniz
 > increment filename.txt
 
 # SistemMimarları
