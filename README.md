@@ -6,10 +6,8 @@ B221210055 Şeyma Orhan 1-A
 B221210588 Younes Rahebi 1-C
 B221210090 Umut Direk 1-C
 
-increment fonksiyonunu 3 farklı şekilde çalışırabilirsiniz
-1) > increment<filename.txt
-2) > increment< filename.txt
-3) > increment filename.txt
+increment fonksiyonunu şekilde çalışırabilirsiniz
+> increment filename.txt
 
 # SistemMimarları
 İşletim Sistemi Proje Ödevi
