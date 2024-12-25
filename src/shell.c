@@ -139,7 +139,6 @@ void cikis_yonlendir(char *komut) {
     dup2(dosya, STDOUT_FILENO);
     close(dosya);
 
-    // İlk parça olan komut çalıştırılıyor
     system(args[0]);
 
     dup2(stdout_backup, STDOUT_FILENO); // stdout'u geri yükle
@@ -148,7 +147,7 @@ void cikis_yonlendir(char *komut) {
 
 
 
-// Tek bir komutu pipe ile çalıştıran fonksiyon
+// Bir komutu pipe ile çalıştıran fonksiyon
 static int command(int input, int first, int last, char *cmd_exec) {
     int mypipefd[2], ret;
     pid_t pid;
@@ -300,7 +299,6 @@ void increment(const char *filename) {
 }
 
 
-// Ana program
 int main() {
     char command[MAX_CMD_LEN];
     char *args[MAX_CMD_ARGS];
@@ -333,10 +331,10 @@ int main() {
             continue;
         }
 
-        int bg_flag = 0; // Arka plan işareti
+        int bg_flag = 0; // Arka plan işareti &
         if (command[strlen(command) - 1] == '&') {
             bg_flag = 1;
-            command[strlen(command) - 1] = '\0'; // '&' işaretini kaldır
+            command[strlen(command) - 1] = '\0'; // & işaretini kaldır
         }
 
         if (strstr(command, "<") != NULL) {
